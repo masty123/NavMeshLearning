@@ -30,7 +30,6 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {   
-
         rb.GetComponent<Rigidbody>();
     }
 
@@ -58,9 +57,9 @@ public class PlayerController : MonoBehaviour
         {
             character.Move(Vector3.zero, false, false);
         }
-
-      
     }
+
+   
 
 
     private void FixedUpdate()
@@ -80,7 +79,7 @@ public class PlayerController : MonoBehaviour
             agent.isStopped = true;
             rb.isKinematic = false;
             rb.useGravity = true;
-            rb.AddRelativeForce(new Vector3(0f, 10f, 2f), ForceMode.Impulse);
+            rb.AddRelativeForce(new Vector3(0f, 10f, 4f), ForceMode.Impulse);
             isGrounded = false;
             
     }
