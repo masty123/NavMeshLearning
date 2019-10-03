@@ -6870,6 +6870,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   surface: {fileID: 1007932016}
+  player: {fileID: 542110625}
 --- !u!1 &1013372729
 GameObject:
   m_ObjectHideFlags: 0
@@ -12028,6 +12029,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerLowman
       objectReference: {fileID: 0}
+    - target: {fileID: 7125464088845197757, guid: fdace9c2ccff97a469215ee1baee689a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7125464088845197753, guid: fdace9c2ccff97a469215ee1baee689a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -12036,7 +12042,7 @@ PrefabInstance:
     - target: {fileID: 7125464088845197753, guid: fdace9c2ccff97a469215ee1baee689a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.21
+      value: 10.84
       objectReference: {fileID: 0}
     - target: {fileID: 7125464088845197753, guid: fdace9c2ccff97a469215ee1baee689a,
         type: 3}
